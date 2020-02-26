@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <IsPackable>false</IsPackable>
+        <Company></Company>
+        <Product>Not Just Another Graphics Engine - Resource Management Test Build</Product>
+        <NeutralLanguage>de-DE</NeutralLanguage>
+        <AssemblyName>De.Markellus.Njage.Configuration</AssemblyName>
+        <RootNamespace>De.Markellus.Njage.Configuration</RootNamespace>
+        <Platforms>x64</Platforms>
+        <Configurations>Release-Windows;Debug-Windows</Configurations>
+    </PropertyGroup>
+
+    <Import Project="..\src\De.Markellus.Njage.ResourceManagement.projitems" Label="Shared" />
+
+    <Import Project="..\..\De.Markellus.Njage.NetInternals\src\De.Markellus.Njage.NetInternals.projitems" Label="Shared" />
+
+    <Import Project="..\..\De.Markellus.Njage.Debugging\src\De.Markellus.Njage.Debugging.projitems" Label="Shared" />
+
+    <Import Project="..\..\De.Markellus.Njage.Configuration\src\De.Markellus.Njage.Configuration.projitems" Label="Shared" />
+
+    <PropertyGroup Condition="'$(Configuration)'=='Debug-Windows'">
+      <OutputPath>..\bin\Debug-Windows-x64\</OutputPath>
+      <PlatformTarget>x64</PlatformTarget>
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+      <NoWarn>1701;1702;CS0649;CS0219</NoWarn>
+      <DefineConstants>DEBUG;TRACE;STBSHARP_INTERNAL</DefineConstants>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)'=='Release-Windows'">
+      <OutputPath>..\bin\Release-Windows-x64\</OutputPath>
+      <PlatformTarget>x64</PlatformTarget>
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+      <DefineConstants>TRACE;STBSHARP_INTERNAL</DefineConstants>
+    </PropertyGroup>
+
+</Project>

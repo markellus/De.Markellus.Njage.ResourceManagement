@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.Markellus.Njage.ResourceManagement", "..\src\De.Markellus.Njage.ResourceManagement.shproj", "{E832FB38-73C3-446E-846D-3258430E3C25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBuild", "TestBuild.csproj", "{F1C1B5C8-E44B-4F14-9C10-BED91C7ADCCA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.Markellus.Njage.Configuration", "..\..\De.Markellus.Njage.Configuration\src\De.Markellus.Njage.Configuration.shproj", "{5F6F3603-E5FF-4903-AFE9-4F3EA285F7A3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.Markellus.Njage.Debugging", "..\..\De.Markellus.Njage.Debugging\src\De.Markellus.Njage.Debugging.shproj", "{BD8010BF-0C12-4C66-AD3E-0E1892D7C3E4}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "De.Markellus.Njage.NetInternals", "..\..\De.Markellus.Njage.NetInternals\src\De.Markellus.Njage.NetInternals.shproj", "{8B8E670E-51F0-45FE-9A1C-227A99F0F58F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\tests\Tests.csproj", "{DB0F44BC-2013-48AD-AF96-3A6327764EDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1C1B5C8-E44B-4F14-9C10-BED91C7ADCCA}.Debug-Windows|x64.ActiveCfg = Debug-Windows|x64
+		{F1C1B5C8-E44B-4F14-9C10-BED91C7ADCCA}.Release-Windows|x64.ActiveCfg = Release-Windows|x64
+		{F1C1B5C8-E44B-4F14-9C10-BED91C7ADCCA}.Debug-Windows|x64.Build.0 = Debug-Windows|x64
+		{F1C1B5C8-E44B-4F14-9C10-BED91C7ADCCA}.Release-Windows|x64.Build.0 = Release-Windows|x64
+		{DB0F44BC-2013-48AD-AF96-3A6327764EDB}.Debug-Windows|x64.ActiveCfg = Debug|Any CPU
+		{DB0F44BC-2013-48AD-AF96-3A6327764EDB}.Debug-Windows|x64.Build.0 = Debug|Any CPU
+		{DB0F44BC-2013-48AD-AF96-3A6327764EDB}.Release-Windows|x64.ActiveCfg = Debug|Any CPU
+		{DB0F44BC-2013-48AD-AF96-3A6327764EDB}.Release-Windows|x64.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug-Windows|x64 = Debug-Windows|x64
+		Release-Windows|x64 = Release-Windows|x64
+	EndGlobalSection
+EndGlobal
